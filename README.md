@@ -22,7 +22,7 @@ vmap <expr> <C-x> mode() ==# "V" ? "\<Plug>(incline-dec)" : "\<C-x>"
 
 " 行選択モードで選択した行のインクリメントを行いますが、インクリメントする数値が後の行ほど増えます。
 " 連番の生成をするのに便利です。
-vmap <expr> g<C-a> mode() ==# "V" ? "\<Plug>(incline-inc-inclined) : "g\<C-a>"
-vmap <expr> g<C-x> mode() ==# "V" ? "\<Plug>(incline-dec-inclined) : "g\<C-x>"
+vmap <expr> g<C-a> mode() ==# "V" ? "\<Plug>(incline-inc-inclined)" : "g\<C-a>"
+vmap <expr> g<C-x> mode() ==# "V" ? "\<Plug>(incline-dec-inclined)" : "g\<C-x>"
 ```
 
