@@ -12,8 +12,8 @@ Linewise increment
 ```vim
 " <C-a>や<C-x>のように使います。
 " 3gaとすれば現在の行に含まれる数値が3ずつインクリメントされます。
-nnoremap ga <Plug>(incline-inc)
-nnoremap gx <Plug>(incline-dec)
+map ga <Plug>(incline-inc)
+map gx <Plug>(incline-dec)
 
 " 行選択モードでのみ、行全体インクリメントを適用します。
 " ビジュアルモードや矩形選択モードでは標準の<C-a>, <C-x>を適用します。
