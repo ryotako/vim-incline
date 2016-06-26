@@ -1,0 +1,2 @@
+# vim-incline
+Linewise increment
